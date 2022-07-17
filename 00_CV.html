@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywors" content="CV, Resume">
+    <meta name="description" content="This site Resume">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/01_Selector.css">
+    <link rel="stylesheet" href="css/00_CV.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info">
+
+            <img src="img/Puh.webp" alt="My Avatar" class="avatar">
+
+            <div class="info-text">
+
+                <h1>Александр Хальпуков</h1>
+                <p>Я программист</p>
+                <p>Люблю <strong><em>поспать</em></strong> хорошо и <strong><em>покушать</em></strong> хорошо</p>
+
+                <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>
+            </div>
+        </div>
+
+        <div class="card-hobby">
+            <h2>Мои Хобби</h2>
+            <ol class="list">
+                <li>Моделирование</li>
+                <li>Видео игры</li>
+                <li>И все</li>
+            </ol>
+        </div>
+
+        <div class="card-work-exp">
+            <h2>Опыт работы</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Детский сад</td>
+                        <td>Воспитанник</td>
+                        <td>с 3 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Школа</td>
+                        <td>Ученик</td>
+                        <td>с 6 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Университет</td>
+                        <td>Учащийся</td>
+                        <td>с 17 лет</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-contact">
+            <form action="/" class="form">
+                <h2>Связаться со мной</h2>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input id="name" type="text" placeholder="Введите имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input id="email" type="text" placeholder="Введите email...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Отправить" class="btn">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br>
+</body>
+
+</html>
